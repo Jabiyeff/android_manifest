@@ -861,5 +861,6 @@
   <!-- Arrow changes -->
   <include name="remove.xml" />
   <include name="arrow.xml" />
+  <include name="santoni.xml" />
 
 </manifest>

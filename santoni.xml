@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="Jabiyeff"
+           fetch="https://github.com/Jabiyeff/" />
+
+  <!-- Special -->
+  <project path="device/xiaomi/santoni" name="device-santoni" remote="Jabiyeff" revision="arrow-11" />
+  <project path="vendor/xiaomi" name="vendor-santoni" remote="Jabiyeff" revision="eleven" />
+  <project path="kernel/xiaomi/msm8937" name="MrArtemSid/android_kernel_xiaomi_santoni_msm4.9" remote="github" revision="santoni-R" clone-depth="1" />
+
+  <!-- Hals -->
+  <project path="hardware/qcom-caf/msm8996/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="Jabiyeff" revision="lineage-18.0-caf-msm8996" />
+  <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="Jabiyeff" revision="caf-msm8996-r" />
+  <project path="hardware/qcom-caf/msm8996/media" name="android_hardware_qcom_media" groups="qcom,pdk-qcom" remote="Jabiyeff" revision="caf-msm8996-r" />
+  <project path="vendor/qcom/opensource/display-commonsys-intf" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="Jabiyeff" revision="R-commonsys-intf" />
+  <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom-caf_wlan" groups="qcom_wlan,pdk-qcom" remote="Jabiyeff" revision="LA.UM.9.6.2.r1" />
+
+</manifest>
